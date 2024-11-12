@@ -1,0 +1,191 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grup-product {
+  display: flex;
+}
+
+/* Header Styles */
+header {
+  background-color: #502500;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.hero h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hero p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto 0 auto;
+  border-radius: 10px;
+}
+
+/* About Section */
+.about {
+  background-color: #e9ecef;
+  padding: 40px 0;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about p {
+  text-align: center;
+}
+
+/* Products Section */
+.products {
+  padding: 40px 0;
+}
+
+.products h2 {
+  text-align: center;
+}
+
+/* Product Card Styles */
+.product-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Spacing between cards */
+}
+
+.product-card {
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 8px 8px 0 0; /* Rounded corners on top */
+}
+
+.product-info {
+  padding: 20px; /* Padding inside the product card */
+}
+
+.product-info h3 {
+  margin-top: 0; /* Remove default margin from heading */
+}
+
+/* Contact Section */
+.contact {
+  background-color: #e9ecef;
+  padding: 40px 0;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+/* Contact Form Styles */
+form input,
+form textarea,
+form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: #fff;
+  border-bottom: #ccc solid thin;
+}
+form button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.75em;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-radius: 0.5rem;
+  text-transform: none;
+}
+form button:hover {
+  background: #45a049;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+.socials {
+  list-style-type: none;
+  padding-left: 0.5em;
+  margin-top: 0.5em;
+}
+.socials li {
+  display: inline;
+  margin-right: 0.5em;
+}
+.socials a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
